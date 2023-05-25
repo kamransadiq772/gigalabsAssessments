@@ -6,3 +6,5 @@ Running Steps
     b. pull redis image and start on port 6379
     c. run mongodb
     d. run app using (cd server => npm i => nodemon start) 
+
+Backend And Front End Are Inter connected. So run both on same device for local test
