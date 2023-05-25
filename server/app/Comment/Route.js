@@ -2,7 +2,7 @@ var express = require('express');
 const { verifyAccessToken } = require('../../utils/helpers');
 
 var router = express.Router();
-const controller = require('./controller');
+const controller = require('./Controller');
 const { checkCreatePostParams, checkEditPostParams, checkCreateCommentParams } = require('./Middleware');
 
 
